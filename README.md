@@ -28,8 +28,9 @@ Or install it yourself as:
 
 ## TODO:
 
-The bourbon dependency was injected using the `bourbon install` command. Can we add a runtime / dev dependency and make this work, without muddying up the `_sass` directory?
-
+* The bourbon dependency was injected using the `bourbon install` command. Can we add a runtime / dev dependency and make this work, without muddying up the `_sass` directory?
+* Pagination does not work yet (commented out in home.html)
+* Feed does not work yet (commented out in home.html)
 ## Usage
 
 Nothing special yet!
