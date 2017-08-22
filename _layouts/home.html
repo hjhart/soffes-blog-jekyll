@@ -10,7 +10,7 @@ layout: default
 		{% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
     <p>Posted on <time datetime="{{ post.date | date: date_format }}">{{ post.date | date: date_format }}</time></p>
   </header>
-  <p><%= post['excerpt_html'] %> <a href="/<%= post['key'] %>" class="continue-reading">Continue reading &rarr;</a></p>
+  <p>{{ post.excerpt }} <a href="{{ post.url | relative_url }}" class="continue-reading">Continue reading &rarr;</a></p>
 </article>
 {% endfor %}
 </section>
