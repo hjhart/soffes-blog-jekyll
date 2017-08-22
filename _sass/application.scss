@@ -1,5 +1,5 @@
-@import "bourbon";
-@import "globals/*";
+@import "bourbon/bourbon";
+@import "globals/variables";
 @import "components/reset";
 
 // HTML5
@@ -213,7 +213,8 @@ body > footer {
 }
 
 // Sections
-@import "sections/*";
+@import "sections/error";
+@import "sections/blog";
 
 a.twitter-username:before {
   content: "@";

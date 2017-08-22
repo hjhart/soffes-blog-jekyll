@@ -26,6 +26,10 @@ Or install it yourself as:
 
     $ gem install soffes-blog-jekyll
 
+## TODO:
+
+The bourbon dependency was injected using the `bourbon install` command. Can we add a runtime / dev dependency and make this work, without muddying up the `_sass` directory?
+
 ## Usage
 
 Nothing special yet!
