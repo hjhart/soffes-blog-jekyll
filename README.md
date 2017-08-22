@@ -33,6 +33,8 @@ Or install it yourself as:
 * javascript doesn't load yet
 * fonts are not correct
 * JSON feed not implemented - does it matter?
+* Never implemented cover images (not sure where one exists).
+* Next post footer is not implemented in markdown world yet (see post.html)
 
 ## Usage
 
