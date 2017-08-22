@@ -28,17 +28,19 @@ Or install it yourself as:
 
 ## TODO:
 
+* Delete the fonts.css file in `assets` and set up a system for using cloud.typography.com subscriptions.
 * The bourbon dependency was injected using the `bourbon install` command. Can we add a runtime / dev dependency and make this work, without muddying up the `_sass` directory?
 * Pagination does not work yet (commented out in home.html)
 * javascript doesn't load yet
-* fonts are not correct
-* JSON feed not implemented - does it matter?
 * Never implemented cover images (not sure where one exists).
 * Next post footer is not implemented in markdown world yet (see post.html)
+* JSON feed not implemented - does it matter?
 
 ## Usage
 
-Nothing special yet!
+Sign up for a typography.com account, the fonts are essential. The cost is $99 / year for up to 250k page views.
+
+	https://www.typography.com/account/your-account.php
 
 ## Contributing
 
