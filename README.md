@@ -40,6 +40,7 @@ Or install it yourself as:
 * Never implemented cover images (not sure where one exists).
 * Next post footer is not implemented in markdown world yet (see post.html)
 * JSON feed not implemented - does it matter?
+* Javascript does not have coffeescript pipeline
 
 ## Usage
 
