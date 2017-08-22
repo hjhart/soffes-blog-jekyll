@@ -16,6 +16,11 @@ And add this line to your Jekyll site's `_config.yml`:
 
 ```yaml
 theme: soffes-blog-jekyll
+description: > # this means to ignore newlines until "full_name:"
+  This is my blog. Enjoy.
+full_name: James Hart
+short_name: James
+copyright_start_year: 2014
 ```
 
 And then execute:
@@ -37,6 +42,8 @@ Or install it yourself as:
 * JSON feed not implemented - does it matter?
 
 ## Usage
+
+### In progress below:
 
 Sign up for a typography.com account, the fonts are essential. The cost is $99 / year for up to 250k page views.
 
